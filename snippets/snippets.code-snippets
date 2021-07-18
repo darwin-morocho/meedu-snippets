@@ -1,0 +1,33 @@
+{
+    "ConsumerWidget": {
+        "prefix": "mconsumer",
+        "body": [
+            "import 'package:flutter/material.dart';",
+            "import 'package:flutter_meedu/state.dart';",
+            "class ${1:name} extends ConsumerWidget{",
+            "  const ${1:name}({Key? key}) : super(key: key);",
+            "  @override",
+            "  Widget build(BuildContext context, watch) {",
+            "    return Container(child:null);",
+            "  }",
+            "}"
+        ]
+    },
+    "PageWithArgumentsWidget": {
+        "prefix": "mpage",
+        "body": [
+            "import 'package:flutter_meedu/page.dart';",
+            "class ${1:name} extends PageWithArgumentsWidget{",
+            "  const ${1:name}({Key? key}) : super(key: key);",
+            "",
+            "@override",
+            "void onInit(RouteSettings settings) {}",
+            "",
+            "  @override",
+            "  Widget build(BuildContext context) {",
+            "    return Scaffold();",
+            "  }",
+            "}"
+        ]
+    }
+}
